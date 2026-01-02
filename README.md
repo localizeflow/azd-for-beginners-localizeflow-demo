@@ -1,3 +1,10 @@
+> ⚠️ This repository is a demo created to showcase
+> automated documentation localization using Localizeflow.
+>
+> The original content is based on
+> Microsoft’s “AZD for Beginners” project.
+
+
 # AZD For Beginners: A Structured Learning Journey
 
 ![AZD-for-beginners](./images/azdbeginners.png) 
