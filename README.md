@@ -1,3 +1,5 @@
+> Note: This documentation is continuously updated to reflect the latest changes.
+
 > ⚠️ This repository is a demo created to showcase
 > automated documentation localization using Localizeflow.
 >
