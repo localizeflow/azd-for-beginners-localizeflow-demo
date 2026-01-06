@@ -1,201 +1,218 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "05c30c9e5ed7951c72855108c6788034",
-  "translation_date": "2025-12-25T07:02:36+00:00",
+  "original_hash": "97a2c4bb6626355c73b9c3ee2b697a60",
+  "translation_date": "2026-01-06T14:17:22+00:00",
   "source_file": "README.md",
   "language_code": "hu"
 }
 -->
-# AZD Kezdőknek: Strukturált tanulási útmutató
+> Megjegyzés: Ez a dokumentáció folyamatosan frissül, hogy tükrözze a legújabb változásokat.
 
-![AZD kezdőknek](../../translated_images/azdbeginners.5527441dd9f7406899cccfc907016b09f9370137543280d95f62ebf23637a2ee.hu.png) 
+> ⚠️ Ez a tároló egy bemutató, amely az automatizált dokumentáció lokalizációját mutatja be a Localizeflow használatával.
+>
+> Az eredeti tartalom a Microsoft „AZD kezdőknek” projektjén alapul.
 
-[![GitHub megfigyelők](https://img.shields.io/github/watchers/microsoft/azd-for-beginners.svg?style=social&label=Watch)](https://GitHub.com/microsoft/azd-for-beginners/watchers/)
-[![GitHub forkok](https://img.shields.io/github/forks/microsoft/azd-for-beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/azd-for-beginners/network/)
-[![GitHub csillagok](https://img.shields.io/github/stars/microsoft/azd-for-beginners.svg?style=social&label=Star)](https://GitHub.com/microsoft/azd-for-beginners/stargazers/)
+
+# AZD Kezdőknek: Egy Strukturált Tanulási Út
+
+![AZD-for-beginners](../../translated_images/azdbeginners.5527441dd9f74068.hu.png) 
+
+[![GitHub watchers](https://img.shields.io/github/watchers/microsoft/azd-for-beginners.svg?style=social&label=Watch)](https://GitHub.com/microsoft/azd-for-beginners/watchers/)
+[![GitHub forks](https://img.shields.io/github/forks/microsoft/azd-for-beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/azd-for-beginners/network/)
+[![GitHub stars](https://img.shields.io/github/stars/microsoft/azd-for-beginners.svg?style=social&label=Star)](https://GitHub.com/microsoft/azd-for-beginners/stargazers/)
 
 [![Azure Discord](https://dcbadge.limes.pink/api/server/https://discord.gg/microsoft-azure)](https://discord.gg/microsoft-azure)
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
 
-## Első lépések ezzel a tanfolyammal
+## A tanfolyam megkezdése
 
-Kövesd ezeket a lépéseket, hogy elindítsd az AZD tanulási utadat:
+Kövesse ezeket a lépéseket AZD tanulási útja elkezdéséhez:
 
-1. **Tároló forkolása**: Kattints [![GitHub forkok](https://img.shields.io/github/forks/microsoft/azd-for-beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/azd-for-beginners/fork)
-2. **Klónozd a tárolót**: `git clone https://github.com/microsoft/azd-for-beginners.git`
-3. **Csatlakozz a közösséghez**: [Azure Discord közösségek](https://discord.com/invite/ByRwuEEgH4) szakértői támogatásért
-4. **Válaszd ki a tanulási utadat**: Válassz az alábbi fejezetek közül, amely megfelel a tapasztalatodnak
+1. **Tároló leképezése (Fork)**: Kattintson [![GitHub forks](https://img.shields.io/github/forks/microsoft/azd-for-beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/azd-for-beginners/fork)
+2. **Tároló klónozása**: `git clone https://github.com/microsoft/azd-for-beginners.git`
+3. **Csatlakozás a közösséghez**: [Azure Discord közösségek](https://discord.com/invite/ByRwuEEgH4) szakértői támogatásért
+4. **Válassza ki a tanulási útvonalat**: Válasszon egy alábbi fejezetet tapasztalati szintjének megfelelően
 
 ### Többnyelvű támogatás
 
-#### Automatikus fordítások (mindig naprakész)
+#### Automatizált fordítások (Mindig naprakész)
 
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE START -->
-[Arab](../ar/README.md) | [Bengáli](../bn/README.md) | [Bolgár](../bg/README.md) | [Burmai (Mianmar)](../my/README.md) | [Kínai (egyszerűsített)](../zh/README.md) | [Kínai (hagyományos, Hongkong)](../hk/README.md) | [Kínai (hagyományos, Makaó)](../mo/README.md) | [Kínai (hagyományos, Tajvan)](../tw/README.md) | [Horvát](../hr/README.md) | [Cseh](../cs/README.md) | [Dán](../da/README.md) | [Holland](../nl/README.md) | [Észt](../et/README.md) | [Finn](../fi/README.md) | [Francia](../fr/README.md) | [Német](../de/README.md) | [Görög](../el/README.md) | [Héber](../he/README.md) | [Hindi](../hi/README.md) | [Magyar](./README.md) | [Indonéz](../id/README.md) | [Olasz](../it/README.md) | [Japán](../ja/README.md) | [Kannada](../kn/README.md) | [Koreai](../ko/README.md) | [Litván](../lt/README.md) | [Maláj](../ms/README.md) | [Malayalam](../ml/README.md) | [Maráthi](../mr/README.md) | [Nepáli](../ne/README.md) | [Nigériai pidgin](../pcm/README.md) | [Norvég](../no/README.md) | [Perzsa (Fárszi)](../fa/README.md) | [Lengyel](../pl/README.md) | [Portugál (Brazília)](../br/README.md) | [Portugál (Portugália)](../pt/README.md) | [Pandzsábi (Gurmukhi)](../pa/README.md) | [Román](../ro/README.md) | [Orosz](../ru/README.md) | [Szerb (cirill)](../sr/README.md) | [Szlovák](../sk/README.md) | [Szlovén](../sl/README.md) | [Spanyol](../es/README.md) | [Szuahéli](../sw/README.md) | [Svéd](../sv/README.md) | [Tagalog (Filippínó)](../tl/README.md) | [Tamil](../ta/README.md) | [Telugu](../te/README.md) | [Thai](../th/README.md) | [Török](../tr/README.md) | [Ukrán](../uk/README.md) | [Urdu](../ur/README.md) | [Vietnami](../vi/README.md)
+[Arabic](../ar/README.md) | [Bengali](../bn/README.md) | [Bulgarian](../bg/README.md) | [Burmese (Myanmar)](../my/README.md) | [Chinese (Simplified)](../zh/README.md) | [Chinese (Traditional, Hong Kong)](../hk/README.md) | [Chinese (Traditional, Macau)](../mo/README.md) | [Chinese (Traditional, Taiwan)](../tw/README.md) | [Croatian](../hr/README.md) | [Czech](../cs/README.md) | [Danish](../da/README.md) | [Dutch](../nl/README.md) | [Estonian](../et/README.md) | [Finnish](../fi/README.md) | [French](../fr/README.md) | [German](../de/README.md) | [Greek](../el/README.md) | [Hebrew](../he/README.md) | [Hindi](../hi/README.md) | [Hungarian](./README.md) | [Indonesian](../id/README.md) | [Italian](../it/README.md) | [Japanese](../ja/README.md) | [Kannada](../kn/README.md) | [Korean](../ko/README.md) | [Lithuanian](../lt/README.md) | [Malay](../ms/README.md) | [Malayalam](../ml/README.md) | [Marathi](../mr/README.md) | [Nepali](../ne/README.md) | [Nigerian Pidgin](../pcm/README.md) | [Norwegian](../no/README.md) | [Persian (Farsi)](../fa/README.md) | [Polish](../pl/README.md) | [Portuguese (Brazil)](../br/README.md) | [Portuguese (Portugal)](../pt/README.md) | [Punjabi (Gurmukhi)](../pa/README.md) | [Romanian](../ro/README.md) | [Russian](../ru/README.md) | [Serbian (Cyrillic)](../sr/README.md) | [Slovak](../sk/README.md) | [Slovenian](../sl/README.md) | [Spanish](../es/README.md) | [Swahili](../sw/README.md) | [Swedish](../sv/README.md) | [Tagalog (Filipino)](../tl/README.md) | [Tamil](../ta/README.md) | [Telugu](../te/README.md) | [Thai](../th/README.md) | [Turkish](../tr/README.md) | [Ukrainian](../uk/README.md) | [Urdu](../ur/README.md) | [Vietnamese](../vi/README.md)
+
+> **Szeretnéd helyben klónozni?**
+
+> Ez a tároló több mint 50 nyelvi fordítást tartalmaz, ami jelentősen növeli a letöltési méretet. Ha fordítások nélkül szeretnéd klónozni, használj sparse checkout-ot:
+> ```bash
+> git clone --filter=blob:none --sparse https://github.com/localizeflow/azd-for-beginners-localizeflow-demo.git
+> cd azd-for-beginners-localizeflow-demo
+> git sparse-checkout set --no-cone '/*' '!translations' '!translated_images'
+> ```
+> Ez mindent megad, amire a tanfolyam elvégzéséhez szükséged van, lényegesen gyorsabb letöltéssel.
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE END -->
 
-## Tanfolyam áttekintése
+## A tanfolyam áttekintése
 
-Sajátítsd el az Azure Developer CLI-t (azd) strukturált fejezeteken keresztül, amelyek a fokozatos tanulásra vannak tervezve. **Kiemelt figyelem az AI-alkalmazások telepítésére Microsoft Foundry integrációval.**
+Sajátítsd el az Azure Developer CLI (azd) használatát strukturált fejezeteken keresztül, amelyek a fokozatos tanulásra épülnek. **Különös figyelem az AI alkalmazások telepítésére a Microsoft Foundry integrációjával.**
 
-### Miért lényeges ez a tanfolyam a modern fejlesztők számára
+### Miért lényeges ez a tanfolyam a modern fejlesztők számára?
 
-A Microsoft Foundry Discord közösség visszajelzései alapján, **a fejlesztők 45%-a szeretné használni az AZD-t AI terhelésekhez**, de nehézségekbe ütköznek a következőkkel kapcsolatban:
-- Összetett, több szolgáltatásból álló AI architektúrák
-- AI éles telepítési legjobb gyakorlatok  
-- Azure AI szolgáltatások integrációja és konfigurálása
-- AI terhelések költséghatékonysága
-- AI-specifikus telepítési hibakeresés
+A Microsoft Foundry Discord közösség tapasztalatai alapján a fejlesztők **45%-a az AI munkaterheléseknél szeretné használni az AZD-t**, de nehézségekbe ütköznek:
+- Összetett több szolgáltatásból álló AI architektúrák
+- AI üzembehelyezési gyakorlatok éles környezetben  
+- Azure AI szolgáltatások integrációja és konfigurációja
+- AI munkaterhelések költségoptimalizálása
+- AI-specifikus telepítési hibák elhárítása
 
 ### Tanulási célok
 
-A strukturált tanfolyam elvégzésével:
-- **AZD alapok elsajátítása**: Alapfogalmak, telepítés és konfiguráció
-- **AI alkalmazások telepítése**: AZD használata Microsoft Foundry szolgáltatásokkal
-- **Infrastruktúra kódként (IaC) megvalósítása**: Azure erőforrások kezelése Bicep sablonokkal
-- **Telepítések hibakeresése**: Gyakori problémák megoldása és hibakeresés
-- **Éles üzemre optimalizálás**: Biztonság, skálázás, monitorozás és költségkezelés
-- **Több-ügynökös megoldások építése**: Összetett AI architektúrák telepítése
+Ezzel a strukturált tanfolyammal:
+- **Mestere leszel az AZD alapjainak**: Alapfogalmak, telepítés, konfiguráció
+- **AI alkalmazásokat telepítesz**: AZD használata Microsoft Foundry szolgáltatásokkal
+- **Infrastruktúra kód formájában (IaC) kezelése**: Azure erőforrások kezelése Bicep sablonokkal
+- **Telepítési hibák elhárítása**: Gyakori problémák megoldása, hibakeresés
+- **Üzemeltetéshez optimalizálsz**: Biztonság, skálázás, monitorozás, költségkezelés
+- **Több ügynökös megoldásokat építesz**: Összetett AI architektúrák telepítése
 
 ## 📚 Tanulási fejezetek
 
-*Válaszd ki tanulási utadat tapasztalati szint és célok alapján*
+*Válaszd ki tanulási útvonalad tapasztalatod és céljaid szerint*
 
-### 🚀 1. fejezet: Alapok és gyors kezdés
-**Előfeltételek**: Azure-előfizetés, alapvető parancssori ismeretek  
+### 🚀 1. fejezet: Alapok és Gyors Kezdés
+**Előfeltételek**: Azure előfizetés, alapvető parancssori ismeretek  
 **Időtartam**: 30-45 perc  
 **Bonyolultság**: ⭐
 
-#### Mit fogsz megtanulni
-- Az Azure Developer CLI alapjainak megértése
+#### Amit tanulni fogsz
+- Az Azure Developer CLI alapfogalmainak megértése
 - AZD telepítése a platformodra
-- Az első sikeres telepítésed
+- Az első sikeres telepítés
 
 #### Tanulási források
-- **🎯 Kezdj itt**: [Mi az Azure Developer CLI?](../..)
-- **📖 Elmélet**: [AZD alapok](docs/getting-started/azd-basics.md) - Alapfogalmak és terminológia
-- **⚙️ Telepítés**: [Telepítés & Beállítás](docs/getting-started/installation.md) - Platform-specifikus útmutatók
-- **🛠️ Gyakorlati**: [Az első projekted](docs/getting-started/first-project.md) - Lépésről lépésre útmutató
-- **📋 Gyors referencia**: [Parancs összefoglaló](resources/cheat-sheet.md)
+- **🎯 Kezd itt**: [Mi az Azure Developer CLI?](../..)
+- **📖 Elmélet**: [AZD Alapok](docs/getting-started/azd-basics.md) - Alapfogalmak és szakszókincs
+- **⚙️ Beállítás**: [Telepítés és beállítás](docs/getting-started/installation.md) - Platform-specifikus útmutatók
+- **🛠️ Gyakorlati**: [Az első projekted](docs/getting-started/first-project.md) - Lépésről lépésre oktatóanyag
+- **📋 Gyorsreferencia**: [Parancs gyorsmutató](resources/cheat-sheet.md)
 
 #### Gyakorlati feladatok
 ```bash
-# Gyors telepítés ellenőrzése
+# Gyors telepítési ellenőrzés
 azd version
 
-# Telepítse az első alkalmazást
+# Telepítse első alkalmazását
 azd init --template todo-nodejs-mongo
 azd up
 ```
 
-**💡 A fejezet eredménye**: Egy egyszerű webalkalmazás sikeres telepítése Azure-ra AZD használatával
+**💡 Fejezet eredmény**: Sikeresen telepítesz egy egyszerű webalkalmazást az Azure-ra AZD-vel
 
-**✅ Siker igazolása:**
+**✅ Sikeres teljesítés ellenőrzése:**
 ```bash
-# A 1. fejezet elvégzése után képes leszel:
+# Az 1. fejezet befejezése után képesnek kell lenned:
 azd version              # Megjeleníti a telepített verziót
 azd init --template todo-nodejs-mongo  # Inicializálja a projektet
-azd up                  # Telepíti az alkalmazást az Azure-ba
+azd up                  # Telepítés Azure-ra
 azd show                # Megjeleníti a futó alkalmazás URL-jét
 # Az alkalmazás megnyílik a böngészőben és működik
-azd down --force --purge  # Eltávolítja az erőforrásokat
+azd down --force --purge  # Erőforrások takarítása
 ```
 
-**📊 Időráfordítás:** 30-45 perc  
-**📈 Készség szint a befejezés után:** Képes önállóan telepíteni alapalkalmazásokat
+**📊 Időbefektetés:** 30-45 perc  
+**📈 Képzettségi szint a végén:** Alap alkalmazásokat önállóan telepít képes
 
-**✅ Siker igazolása:**
+**✅ Sikeres teljesítés ellenőrzése:**
 ```bash
 # Az 1. fejezet elvégzése után képesnek kell lenned:
-azd version              # Megjeleníti a telepített verziót
-azd init --template todo-nodejs-mongo  # Inicializálja a projektet
-azd up                  # Telepíti az Azure-ra
-azd show                # Megjeleníti a futó alkalmazás URL-címét
-# Az alkalmazás megnyílik a böngészőben, és működik
-azd down --force --purge  # Eltávolítja az erőforrásokat
+azd version              # Telepített verzió megjelenítése
+azd init --template todo-nodejs-mongo  # Projekt inicializálása
+azd up                  # Telepítés Azure-ra
+azd show                # Futtatott alkalmazás URL-jének megjelenítése
+# Az alkalmazás megnyílik a böngészőben és működik
+azd down --force --purge  # Erőforrások tisztítása
 ```
 
-**📊 Időráfordítás:** 30-45 perc  
-**📈 Készség szint a befejezés után:** Képes önállóan telepíteni alapalkalmazásokat
+**📊 Időbefektetés:** 30-45 perc  
+**📈 Képzettségi szint a végén:** Alap alkalmazásokat önállóan telepít képes
 
 ---
 
-### 🤖 2. fejezet: AI-első fejlesztés (Ajánlott AI fejlesztőknek)
+### 🤖 2. fejezet: AI-központú fejlesztés (Ajánlott AI fejlesztőknek)
 **Előfeltételek**: 1. fejezet teljesítve  
 **Időtartam**: 1-2 óra  
 **Bonyolultság**: ⭐⭐
 
-#### Mit fogsz megtanulni
-- Microsoft Foundry integráció az AZD-del
-- AI-t használó alkalmazások telepítése
-- AI szolgáltatások konfigurációinak megértése
+#### Amit tanulni fogsz
+- Microsoft Foundry integráció AZD-vel
+- AI-alapú alkalmazások telepítése
+- AI szolgáltatások konfigurációjának megértése
 
 #### Tanulási források
-- **🎯 Kezdj itt**: [Microsoft Foundry integráció](docs/microsoft-foundry/microsoft-foundry-integration.md)
-- **📖 Minták**: [AI modell telepítése](docs/microsoft-foundry/ai-model-deployment.md) - AI modellek telepítése és kezelése
-- **🛠️ Műhely**: [AI Workshop Labor](docs/microsoft-foundry/ai-workshop-lab.md) - Tedd AI-megoldásaidat AZD-kompatibilissé
-- **🎥 Interaktív útmutató**: [Workshop anyagok](workshop/README.md) - Böngészőalapú tanulás MkDocs-szal * DevContainer környezet
+- **🎯 Kezd itt**: [Microsoft Foundry integráció](docs/microsoft-foundry/microsoft-foundry-integration.md)
+- **📖 Minták**: [AI modell telepítés](docs/microsoft-foundry/ai-model-deployment.md) - AI modellek telepítése és kezelése
+- **🛠️ Műhely**: [AI műhely labor](docs/microsoft-foundry/ai-workshop-lab.md) - AZD-hez készült AI megoldások
+- **🎥 Interaktív útmutató**: [Műhely anyagok](workshop/README.md) - Böngésző alapú tanulás MkDocs * DevContainer környezetben
 - **📋 Sablonok**: [Microsoft Foundry sablonok](../..)
 - **📝 Példák**: [AZD telepítési példák](examples/README.md)
 
 #### Gyakorlati feladatok
 ```bash
-# Telepítse az első mesterséges intelligencia-alkalmazását
+# Helyezze üzembe első AI alkalmazását
 azd init --template azure-search-openai-demo
 azd up
 
-# Próbáljon ki további mesterséges intelligencia-sablonokat
+# Próbáljon ki további AI sablonokat
 azd init --template openai-chat-app-quickstart
 azd init --template agent-openai-python-prompty
 ```
 
-**💡 A fejezet eredménye**: Telepíts és konfigurálj egy AI-vezérelt csevegőalkalmazást RAG képességekkel
+**💡 Fejezet eredmény**: Telepíts és konfigurálj egy AI-alapú csevegőalkalmazást RAG képességekkel
 
-**✅ Siker igazolása:**
+**✅ Sikeres teljesítés ellenőrzése:**
 ```bash
-# A 2. fejezet után képesnek kell lenned a következőkre:
+# A 2. fejezet után képesnek kell lennie arra, hogy:
 azd init --template azure-search-openai-demo
 azd up
-# Tesztelni az AI csevegőfelületet
-# Kérdéseket feltenni és mesterséges intelligencia által generált, forrásokkal alátámasztott válaszokat kapni
-# Ellenőrizni, hogy a keresési integráció működik
-azd monitor  # Ellenőrizni, hogy az Application Insights megjeleníti a telemetriát
+# Tesztelje az AI csevegőfelületet
+# Tegyen fel kérdéseket és kapjon AI által támogatott válaszokat forrásokkal
+# Ellenőrizze, hogy a keresési integráció működik
+azd monitor  # Ellenőrizze, hogy az Application Insights mutatja a telemetriát
 azd down --force --purge
 ```
 
-**📊 Időráfordítás:** 1-2 óra  
-**📈 Készség szint a befejezés után:** Képes telepíteni és konfigurálni éles környezetre kész AI alkalmazásokat  
-**💰 Költségtudatosság:** Ismerd a fejlesztési költségeket (~$80–150/hó), az éles költségeket (~$300–3500/hó)
+**📊 Időbefektetés:** 1-2 óra  
+**📈 Képzettségi szint a végén:** Képes éles, AI alkalmazások telepítésére és konfigurálására  
+**💰 Költségismeret:** Megérti a fejlesztési költségeket ($80-150/hó), éles környezet költségeket ($300-3500/hó)
 
-#### 💰 Költségszempontok AI telepítések esetén
+#### 💰 Költségszempontok az AI telepítésekhez
 
-**Fejlesztési környezet (Becsült $80–150/hó):**
-- Azure OpenAI (Fogyasztás alapú / Pay-as-you-go): $0–50/hó (a tokenhasználattól függ)
-- AI Search (Alap szint): $75/hó
-- Container Apps (Fogyasztás): $0–20/hó
-- Tárhely (Standard): $1–5/hó
+**Fejlesztői környezet (Becslés: $80-150/hónap):**
+- Azure OpenAI (Pay-as-you-go): $0-50/hó (tokenfelhasználástól függően)
+- AI Search (alapszint): $75/hó
+- Container Apps (fogyasztás alapú): $0-20/hó
+- Tárolás (szabványos): $1-5/hó
 
-**Éles környezet (Becsült $300–3,500+/hó):**
-- Azure OpenAI (PTU a következetes teljesítményért): $3,000+/hó vagy Pay-as-you-go nagy forgalom esetén
-- AI Search (Standard szint): $250/hó
-- Container Apps (Dedikált): $50–100/hó
-- Application Insights: $5–50/hó
-- Tárhely (Premium): $10–50/hó
+**Éles környezet (Becslés: $300-3,500+/hónap):**
+- Azure OpenAI (PTU a konzisztens teljesítményért): $3,000+/hó VAGY nagy volumenű pay-as-you-go
+- AI Search (szabványos szint): $250/hó
+- Container Apps (dedikált): $50-100/hó
+- Application Insights: $5-50/hó
+- Tárolás (prémium): $10-50/hó
 
 **💡 Költségoptimalizálási tippek:**
-- Használj **ingyenes szintet** az Azure OpenAI-hoz tanuláshoz (50,000 token/hó included)
-- Futtasd az `azd down` parancsot a források leállításához, amikor nem fejlesztesz aktívan
-- Kezdd fogyasztás-alapú számlázással, PTU-ra csak éles környezetben válts
-- Használd az `azd provision --preview` parancsot a költségek becsléséhez telepítés előtt
+- Használj **Ingyenes szintű** Azure OpenAI-t tanuláshoz (50,000 token/hó benne van)
+- Futtasd az `azd down` parancsot, ha nem fejlesztesz aktívan, hogy felszabadítsd az erőforrásokat
+- Fogyasztás alapú számlázással kezdj, PTU-ra csak éles környezetben válts
+- Használd az `azd provision --preview` parancsot a költségek előzetes becslésére
 - Engedélyezd az automatikus skálázást: csak a tényleges használatért fizess
 
 **Költségfigyelés:**
 ```bash
-# Ellenőrizze a becsült havi költségeket
+# Becslés havi költségek ellenőrzése
 azd provision --preview
 
-# Kövesse nyomon a tényleges költségeket az Azure Portalon
+# A tényleges költségek figyelése az Azure Portálon
 az consumption budget list --resource-group <your-rg>
 ```
 
@@ -206,86 +223,477 @@ az consumption budget list --resource-group <your-rg>
 **Időtartam**: 45-60 perc  
 **Bonyolultság**: ⭐⭐
 
-#### Mit fogsz megtanulni
-- Környezetkonfiguráció és kezelés
-- Hitelesítés és biztonsági legjobb gyakorlatok
-- Erőforrások elnevezése és rendszerezése
+#### Amit tanulni fogsz
+- Környezet konfiguráció és menedzsment
+- Hitelesítés és biztonsági bevált gyakorlatok
+- Erőforrásnevek és szervezés
 
 #### Tanulási források
 - **📖 Konfiguráció**: [Konfigurációs útmutató](docs/getting-started/configuration.md) - Környezet beállítása
-- **🔐 Biztonság**: [Hitelesítési minták és felügyelt identitás](docs/getting-started/authsecurity.md) - Hitelesítési minták
+- **🔐 Biztonság**: [Hitelesítési minták és kezelt identitás](docs/getting-started/authsecurity.md) - Hitelesítés
 - **📝 Példák**: [Adatbázis alkalmazás példa](examples/database-app/README.md) - AZD adatbázis példák
 
 #### Gyakorlati feladatok
-- Konfigurálj több környezetet (dev, staging, prod)
-- Állíts be felügyelt identitás alapú hitelesítést
-- Valósíts meg környezet-specifikus konfigurációkat
+- Több környezet konfigurálása (fejlesztői, teszt, éles)
+- Kezelt identitás alapú hitelesítés beállítása
+- Környezet-specifikus konfigurációk implementálása
 
-**💡 A fejezet eredménye**: Több környezet kezelése megfelelő hitelesítéssel és biztonsággal
+**💡 Fejezet eredmény**: Több környezet kezelése megfelelő hitelesítéssel és biztonsággal
 
 ---
 
-### 🏗️ 4. fejezet: Infrastruktúra kódként (IaC) és telepítés
-**Előfeltételek**: 1–3. fejezetek teljesítve  
-**Időtartam**: 1-1.5 óra  
+### 🏗️ 4. fejezet: Infrastruktúra kód formájában és telepítés
+**Előfeltételek**: 1-3. fejezetek teljesítve  
+**Időtartam**: 1-1,5 óra  
 **Bonyolultság**: ⭐⭐⭐
 
-#### Mit fogsz megtanulni
+#### Amit tanulni fogsz
 - Haladó telepítési minták
-- Infrastruktúra kód (IaC) használata Bicep-pel
-- Erőforrás-províziós stratégiák
+- Infrastruktúra mint kód Bicep-pel
+- Erőforrás provisioning stratégiák
 
 #### Tanulási források
 - **📖 Telepítés**: [Telepítési útmutató](docs/deployment/deployment-guide.md) - Teljes munkafolyamatok
-- **🏗️ Provisioning**: [Erőforrások provisionálása](docs/deployment/provisioning.md) - Azure erőforráskezelés
-- **📝 Példák**: [Konténeralkalmazás példa](../../examples/container-app) - Konténerizált telepítések
+- **🏗️ Provisioning**: [Erőforrások provisioningje](docs/deployment/provisioning.md) - Azure erőforrás menedzsment
+- **📝 Példák**: [Container App példa](../../examples/container-app) - Konténeres telepítések
 
 #### Gyakorlati feladatok
-- Hozz létre egyedi Bicep sablonokat
-- Telepíts több szolgáltatásból álló alkalmazásokat
-- Valósíts meg blue-green telepítési stratégiákat
+- Egyedi Bicep sablonok létrehozása
+- Több szolgáltatásból álló alkalmazások telepítése
+- Kék-zöld telepítési stratégiák implementálása
 
-**💡 A fejezet eredménye**: Összetett, többszolgáltatásos alkalmazások telepítése egyedi infrastruktúra-sablonok használatával
+**💡 Fejezet eredmény**: Összetett több szolgáltatásos alkalmazások telepítése egyedi infrastruktúra sablonok használatával
 
 ---
-
-### 🎯 5. fejezet: Több-ügynökös AI megoldások (Haladó)
-**Előfeltételek**: 1–2. fejezetek teljesítve  
+### 🎯 5. fejezet: Többügynökös MI megoldások (Haladó)
+**Előfeltételek**: 1-2. fejezet befejezve  
 **Időtartam**: 2-3 óra  
 **Bonyolultság**: ⭐⭐⭐⭐
 
-#### Mit fogsz megtanulni
-- Több-ügynökös architektúra minták
-- Ügynökök orkestrációja és koordinációja
-- Élesre kész AI telepítések
+#### Amit megtanulsz
+- Többügynökös architektúra minták
+- Ügynökök összehangolása és koordinációja
+- Üzemkész MI telepítések
 
 #### Tanulási források
-- **🤖 Kiemelt projekt**: [Kiskereskedelmi több-ügynökös megoldás](examples/retail-scenario.md) - Teljes megvalósítás
+- **🤖 Kiemelt projekt**: [Kiskereskedelmi többügynökös megoldás](examples/retail-scenario.md) - Teljes megvalósítás
+- **🛠️ ARM sablonok**: [ARM sablon csomag](../../examples/retail-multiagent-arm-template) - Egykattintásos telepítés
+- **📖 Architektúra**: [Többügynökös koordinációs minták](/docs/pre-deployment/coordination-patterns.md) - Minták
 
-- [**Parancs gyorsreferencia**](resources/cheat-sheet.md) - Az azd alapvető parancsai fejezetek szerint rendezve
-- [**Fogalomtár**](resources/glossary.md) - Azure és az azd terminológia  
-- [**Gyakran ismételt kérdések**](resources/faq.md) - Gyakori kérdések a tanulási fejezetek szerint rendezve
+#### Gyakorlati feladatok
+```bash
+# Telepítse a teljes kiskereskedelmi több ügynökös megoldást
+cd examples/retail-multiagent-arm-template
+./deploy.sh
+
+# Fedezze fel az ügynök konfigurációkat
+az deployment group show --resource-group <rg-name> --name <deployment-name>
+```
+
+**💡 Fejezet eredmény**: Üzemkész többügynökös MI megoldás telepítése és kezelése Ügyfél és Készlet ügynökökkel
+
+---
+
+### 🔍 6. fejezet: Telepítés előtti érvényesítés és tervezés
+**Előfeltételek**: 4. fejezet befejezve  
+**Időtartam**: 1 óra  
+**Bonyolultság**: ⭐⭐
+
+#### Amit megtanulsz
+- Kapacitástervezés és erőforrás-érvényesítés
+- SKU kiválasztási stratégiák
+- Telepítés előtti ellenőrzések és automatizálás
+
+#### Tanulási források
+- **📊 Tervezés**: [Kapacitástervezés](docs/pre-deployment/capacity-planning.md) - Erőforrás ellenőrzés
+- **💰 Kiválasztás**: [SKU választás](docs/pre-deployment/sku-selection.md) - Költséghatékony döntések
+- **✅ Érvényesítés**: [Telepítés előtti ellenőrzések](docs/pre-deployment/preflight-checks.md) - Automatizált szkriptek
+
+#### Gyakorlati feladatok
+- Futtasd a kapacitás ellenőrző szkripteket
+- Optimalizáld az SKU választásokat költség szerint
+- Valósíts meg automatizált telepítés előtti ellenőrzéseket
+
+**💡 Fejezet eredmény**: Telepítések érvényesítése és optimalizálása végrehajtás előtt
+
+---
+
+### 🚨 7. fejezet: Hibakeresés és hibajavítás
+**Előfeltételek**: Bármely telepítési fejezet befejezve  
+**Időtartam**: 1-1,5 óra  
+**Bonyolultság**: ⭐⭐
+
+#### Amit megtanulsz
+- Szisztematikus hibakeresési megközelítések
+- Gyakori problémák és megoldások
+- Mesterséges intelligenciára specializált hibakeresés
+
+#### Tanulási források
+- **🔧 Gyakori problémák**: [Gyakori problémák](docs/troubleshooting/common-issues.md) - GYIK és megoldások
+- **🕵️ Hibakeresés**: [Hibakeresési útmutató](docs/troubleshooting/debugging.md) - Lépésről lépésre stratégiák
+- **🤖 MI problémák**: [MI-specifikus hibakezelés](docs/troubleshooting/ai-troubleshooting.md) - MI szolgáltatás problémák
+
+#### Gyakorlati feladatok
+- Diagnosztizáld a telepítési hibákat
+- Oldd meg az hitelesítési problémákat
+- Hibakeresés MI szolgáltatás kapcsolódásban
+
+**💡 Fejezet eredmény**: Önállóan diagnosztizáld és oldd meg a gyakori telepítési problémákat
+
+---
+
+### 🏢 8. fejezet: Termelési és vállalati minták
+**Előfeltételek**: 1-4. fejezetek befejezve  
+**Időtartam**: 2-3 óra  
+**Bonyolultság**: ⭐⭐⭐⭐
+
+#### Amit megtanulsz
+- Termelési telepítési stratégiák
+- Vállalati biztonsági minták
+- Monitorozás és költségoptimalizálás
+
+#### Tanulási források
+- **🏭 Termelés**: [Termelési MI bevált gyakorlatok](docs/microsoft-foundry/production-ai-practices.md) - Vállalati minták
+- **📝 Példák**: [Mikroszolgáltatások példa](../../examples/microservices) - Bonyolult architektúrák
+- **📊 Monitorozás**: [Application Insights integráció](docs/pre-deployment/application-insights.md) - Monitorozás
+
+#### Gyakorlati feladatok
+- Vállalati biztonsági minták megvalósítása
+- Átfogó monitorozás beállítása
+- Telepítés termelésbe megfelelő irányítással
+
+**💡 Fejezet eredmény**: Vállalatkész alkalmazások telepítése teljes termelési képességekkel
+
+---
+
+## 🎓 Műhely áttekintés: Gyakorlati tanulás
+
+> **⚠️ MŰHELY ÁLLAPOT: Aktív fejlesztés**  
+> A műhely anyagai fejlesztés alatt állnak. Az alap modulok működnek, de néhány haladó rész nem teljes. Folyamatosan dolgozunk a tartalom kiegészítésén. [Nyomon követés →](workshop/README.md)
+
+### Interaktív műhely anyagok
+**Átfogó gyakorlati tanulás böngésző-alapú eszközökkel és vezetett feladatokkal**
+
+A műhely anyagai strukturált, interaktív tanulási élményt kínálnak, amely kiegészíti a fejezet-alapú tananyagot. A műhely önálló és oktató által vezetett munkamenetekre is alkalmas.
+
+#### 🛠️ Műhely jellemzői
+- **Böngésző alapú felület**: Teljes MkDocs-alapú műhely kereséssel, másolással és témával
+- **GitHub Codespaces integráció**: Egykattintásos fejlesztői környezet beállítás
+- **Strukturált tanulási út**: 7 lépéses vezetett feladatok (összesen 3,5 óra)
+- **Felfedezés → Telepítés → Testreszabás**: Fokozatos módszertan
+- **Interaktív DevContainer környezet**: Előkészített eszközök és függőségek
+
+#### 📚 Műhely felépítése
+A műhely a **Felfedezés → Telepítés → Testreszabás** módszertant követi:
+
+1. **Felfedezési szakasz** (45 perc)
+   - Microsoft Foundry sablonok és szolgáltatások felfedezése
+   - Többügynökös architektúra minták megértése
+   - Telepítési követelmények és előfeltételek áttekintése
+
+2. **Telepítési szakasz** (2 óra)
+   - MI alkalmazások gyakorlati telepítése AZD-vel
+   - Azure MI szolgáltatások és végpontok konfigurálása
+   - Biztonsági és hitelesítési minták megvalósítása
+
+3. **Testreszabási szakasz** (45 perc)
+   - Alkalmazások módosítása specifikus felhasználási esetekhez
+   - Optimalizálás termelési telepítéshez
+   - Monitorozás és költségkezelés bevezetése
+
+#### 🚀 Indulás a műhellyel
+```bash
+# 1. lehetőség: GitHub Codespaces (Ajánlott)
+# Kattintson a „Code” → „Create codespace on main” elemre a tárhelyen
+
+# 2. lehetőség: Helyi fejlesztés
+git clone https://github.com/microsoft/azd-for-beginners.git
+cd azd-for-beginners/workshop
+# Kövesse a workshop/README.md fájlban található beállítási utasításokat
+```
+
+#### 🎯 Műhely tanulási eredmények
+A műhely elvégzésével a résztvevők:
+- **Telepítenek termelési MI alkalmazásokat**: AZD-vel és Microsoft Foundry szolgáltatásokkal
+- **Elsajátítják a többügynökös architektúrákat**: Összehangolt MI ügynök megoldások implementálása
+- **Megvalósítják a biztonsági legjobb gyakorlatokat**: Hitelesítés és hozzáférés-vezérlés beállítása
+- **Optimalizálják a méretezést**: Költséghatékony, teljesítményorientált telepítések tervezése
+- **Hibakeresési képességek**: Gyakori problémák önálló megoldása
+
+#### 📖 Műhely források
+- **🎥 Interaktív útmutató**: [Műhely anyagok](workshop/README.md) - Böngésző-alapú tanulási környezet
+- **📋 Lépésenkénti útmutatók**: [Vezetett gyakorlatok](../../workshop/docs/instructions) - Részletes végigvezetés
+- **🛠️ MI műhely labor**: [MI műhely labor](docs/microsoft-foundry/ai-workshop-lab.md) - MI fókuszú gyakorlatok
+- **💡 Gyors indulás**: [Műhely beállítási útmutató](workshop/README.md#quick-start) - Környezetkonfiguráció
+
+**Ideális**: Vállalati képzésekhez, egyetemi kurzusokhoz, önálló tanuláshoz és fejlesztői bootcamp-ekhez.
+
+---
+
+## 📖 Mi az az Azure Developer CLI?
+
+Az Azure Developer CLI (azd) egy fejlesztőközpontú parancssori eszköz, amely felgyorsítja az alkalmazások Azure-ba történő építését és telepítését. A következőket kínálja:
+
+- **Sablon alapú telepítések** – Előre elkészített sablonok gyakori alkalmazásmintákhoz  
+- **Infrastructure as Code** – Azure erőforrások kezelése Bicep vagy Terraform segítségével  
+- **Integrált munkafolyamatok** – Alkalmazások zökkenőmentes létrehozása, telepítése és monitorozása  
+- **Fejlesztőbarát** – A fejlesztők hatékonyságának és élményének optimalizálása
+
+### **AZD + Microsoft Foundry: Tökéletes MI telepítésekhez**
+
+**Miért AZD az MI megoldásokhoz?** AZD a legfőbb kihívásokat célozza meg, amikkel az MI fejlesztők szembesülnek:
+
+- **MI-re kész sablonok** – Azure OpenAI, Kognitív Szolgáltatások és ML terhelések előre konfigurált sablonjai  
+- **Biztonságos MI telepítések** – Beépített biztonsági minták MI szolgáltatásokhoz, API kulcsokhoz és modellig végpontokhoz  
+- **Termelési MI minták** – Bevett gyakorlatok skálázható, költséghatékony MI alkalmazás-telepítésekhez  
+- **Végponttól-végpontig MI munkafolyamatok** – Modellfejlesztéstől a termelési telepítésig megfelelő monitorozással  
+- **Költségoptimalizálás** – Okos erőforrás kiosztás és skálázási stratégiák MI terhelésekhez  
+- **Microsoft Foundry integráció** – Zökkenőmentes csatlakozás a Microsoft Foundry modell katalógusához és végpontjaihoz
+
+---
+
+## 🎯 Sablontár és példatár
+
+### Kiemelt: Microsoft Foundry sablonok
+**Innen indulj, ha MI alkalmazásokat telepítesz!**
+
+> **Megjegyzés:** Ezek a sablonok különféle MI mintákat mutatnak be. Egyesek külső Azure minták, mások helyi implementációk.
+
+| Sablon | Fejezet | Bonyolultság | Szolgáltatások | Típus |
+|--------|---------|--------------|----------------|-------|
+| [**Az MI chat alapjai**](https://github.com/Azure-Samples/get-started-with-ai-chat) | 2. fejezet | ⭐⭐ | AzureOpenAI + Azure AI Modell Lekérdezés API + Azure AI Keresés + Azure Konténeralkalmazások + Application Insights | Külső |
+| [**MI ügynökök alapjai**](https://github.com/Azure-Samples/get-started-with-ai-agents) | 2. fejezet | ⭐⭐ | Azure AI Ügynök szolgáltatás + AzureOpenAI + Azure AI Keresés + Azure Konténeralkalmazások + Application Insights | Külső |
+| [**Azure Keresés + OpenAI Demó**](https://github.com/Azure-Samples/azure-search-openai-demo) | 2. fejezet | ⭐⭐ | AzureOpenAI + Azure AI Keresés + App Service + Storage | Külső |
+| [**OpenAI Chat App Gyorsindítás**](https://github.com/Azure-Samples/openai-chat-app-quickstart) | 2. fejezet | ⭐ | AzureOpenAI + Konténeralkalmazások + Application Insights | Külső |
+| [**Agent OpenAI Python Prompty**](https://github.com/Azure-Samples/agent-openai-python-prompty) | 5. fejezet | ⭐⭐⭐ | AzureOpenAI + Azure Functions + Prompty | Külső |
+| [**Contoso Chat RAG**](https://github.com/Azure-Samples/contoso-chat) | 8. fejezet | ⭐⭐⭐⭐ | AzureOpenAI + AI Keresés + Cosmos DB + Konténeralkalmazások | Külső |
+| [**Kiskereskedelmi többügynökös megoldás**](examples/retail-scenario.md) | 5. fejezet | ⭐⭐⭐⭐ | AzureOpenAI + AI Keresés + Tárhely + Konténeralkalmazások + Cosmos DB | **Helyi** |
+
+### Kiemelt: Teljes tanulási forgatókönyvek
+**Termelésre kész alkalmazás sablonok tanulási fejezetekhez rendelve**
+
+| Sablon | Tanulási fejezet | Bonyolultság | Fő tanulási pont |
+|--------|------------------|--------------|------------------|
+| [**openai-chat-app-quickstart**](https://github.com/Azure-Samples/openai-chat-app-quickstart) | 2. fejezet | ⭐ | Alap MI telepítési minták |
+| [**azure-search-openai-demo**](https://github.com/Azure-Samples/azure-search-openai-demo) | 2. fejezet | ⭐⭐ | RAG megvalósítás Azure AI Kereséssel |
+| [**ai-document-processing**](https://github.com/Azure-Samples/ai-document-processing) | 4. fejezet | ⭐⭐ | Dokumentumintelligencia integráció |
+| [**agent-openai-python-prompty**](https://github.com/Azure-Samples/agent-openai-python-prompty) | 5. fejezet | ⭐⭐⭐ | Ügynök keretrendszer és függvényhívás |
+| [**contoso-chat**](https://github.com/Azure-Samples/contoso-chat) | 8. fejezet | ⭐⭐⭐ | Vállalati MI összehangolás |
+| [**retail-multi-agent-solution**](examples/retail-scenario.md) | 5. fejezet | ⭐⭐⭐⭐ | Többügynökös architektúra Ügyfél és Készlet ügynökökkel |
+
+### Példa típus szerint tanulás
+
+> **📌 Helyi vs. külső példák:**  
+> **Helyi példák** (ebben a repo-ban) = Azonnal használható  
+> **Külső példák** (Azure minták) = Linkelt repo-kból klónozandó
+
+#### Helyi példák (Azonnal használható)
+- [**Kiskereskedelmi többügynökös megoldás**](examples/retail-scenario.md) - Teljes üzemkész megvalósítás ARM sablonokkal
+  - Többügynökös architektúra (Ügyfél + Készlet ügynökök)
+  - Átfogó monitorozás és értékelés
+  - Egykattintásos telepítés ARM sablonon keresztül
+
+#### Helyi példák - Konténeralkalmazások (2-5. fejezet)
+**Átfogó tárolós telepítés példák ebben a tárban:**
+- [**Konténeralkalmazás példák**](examples/container-app/README.md) - Teljes útmutató konténeres telepítésekhez
+  - [Egyszerű Flask API](../../examples/container-app/simple-flask-api) - Alap REST API skálázás nullára
+  - [Mikroszolgáltatás architektúra](../../examples/container-app/microservices) - Üzemkész több szolgáltatás telepítés
+  - Gyorsindítás, Termelés, Haladó telepítési minták
+  - Monitorozás, biztonság és költségoptimalizálási útmutató
+
+#### Külső példák – Egyszerű alkalmazások (1-2. fejezet)
+**Klónozd ezeket az Azure mintapéldányokat az induláshoz:**
+- [Egyszerű webalkalmazás - Node.js + MongoDB](https://github.com/Azure-Samples/todo-nodejs-mongo) - Alap telepítési minták
+- [Statikus weboldal - React SPA](https://github.com/Azure-Samples/todo-csharp-sql-swa-func) - Statikus tartalom telepítés
+- [Konténeralkalmazás - Python Flask](https://github.com/Azure-Samples/container-apps-store-api-microservice) - REST API telepítés
+
+#### Külső példák – Adatbázis integráció (3-4. fejezet)  
+- [Adatbázis alkalmazás - C# + SQL](https://github.com/Azure-Samples/todo-csharp-sql) - Adatbázis kapcsolódási minták
+- [Funkciók + Cosmos DB](https://github.com/Azure-Samples/todo-python-mongo-swa-func) - Szerver nélküli adat munkafolyamat
+
+#### Külső példák – Haladó minták (4-8. fejezet)
+- [Java mikroszolgáltatások](https://github.com/Azure-Samples/java-microservices-aca-lab) - Több szolgáltatásos architektúrák
+- [Konténeralkalmazás háttérfeladatok](https://github.com/Azure-Samples/container-apps-jobs) - Háttérfeldolgozás  
+- [Vállalati gépi tanulási pipeline](https://github.com/Azure-Samples/mlops-v2) - Üzemkész ML minták
+
+### Külső sablontárak  
+
+- [**Hivatalos AZD sablongyűjtemény**](https://azure.github.io/awesome-azd/) - Válogatott hivatalos és közösségi sablonok gyűjteménye  
+- [**Azure Developer CLI sablonok**](https://learn.microsoft.com/en-us/azure/developer/azure-developer-cli/azd-templates) - Microsoft Learn sablon dokumentáció  
+- [**Példák könyvtára**](examples/README.md) - Helyi tanulási példák részletes magyarázatokkal
+
+---
+
+## 📚 Tanulási anyagok és hivatkozások
+
+### Gyorshivatkozások
+- [**Parancs gyorslista**](resources/cheat-sheet.md) - Alapvető azd parancsok fejezetenként rendszerezve  
+- [**Fogalomtár**](resources/glossary.md) - Azure és azd terminológia  
+- [**GYIK**](resources/faq.md) - Gyakori kérdések tanulási fejezetenként rendszerezve  
 - [**Tanulmányi útmutató**](resources/study-guide.md) - Átfogó gyakorlati feladatok
 
 ### Gyakorlati workshopok
-- [**AI Workshop labor**](docs/microsoft-foundry/ai-workshop-lab.md) - Tedd az AI megoldásaidat AZD-telepíthetővé (2-3 óra)
-- [**Interaktív workshop útmutató**](workshop/README.md) - Böngészőalapú workshop MkDocs-szal és DevContainer környezettel
-- [**Strukturált tanulási útvonal**](../../workshop/docs/instructions) -7 lépéses vezetett gyakorlatok (Felfedezés → Telepítés → Testreszabás)
-- [**AZD kezdőknek workshop**](workshop/README.md) - Teljes gyakorlati workshop anyagok GitHub Codespaces integrációval
+- [**AI Workshop Lab**](docs/microsoft-foundry/ai-workshop-lab.md) - Készítsd el AI megoldásaidat AZD telepíthetővé (2-3 óra)  
+- [**Interaktív workshop útmutató**](workshop/README.md) - Böngészőalapú workshop MkDocs és DevContainer környezettel  
+- [**Strukturált tanulási út**](../../workshop/docs/instructions) - 7 lépéses vezetett gyakorlatok (Felfedezés → Telepítés → Testreszabás)  
+- [**AZD kezdőknek workshop**](workshop/README.md) - Teljes gyakorlati workshop anyag GitHub Codespaces integrációval
 
 ### Külső tanulási források
-- [Azure Developer CLI Documentation](https://learn.microsoft.com/en-us/azure/developer/azure-developer-cli/)
-- [Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/)
-- [Azure Pricing Calculator](https://azure.microsoft.com/pricing/calculator/)
-- [Azure Status](https://status.azure.com/)
+- [Azure Developer CLI dokumentáció](https://learn.microsoft.com/en-us/azure/developer/azure-developer-cli/)  
+- [Azure architektúra központ](https://learn.microsoft.com/en-us/azure/architecture/)  
+- [Azure árkalkulátor](https://azure.microsoft.com/pricing/calculator/)  
+- [Azure állapot](https://status.azure.com/)
 
 ---
 
 ## 🔧 Gyors hibaelhárítási útmutató
 
-**Kezdők által gyakran tapasztalt problémák és azonnali megoldások:**
+**Gyakori problémák, amikkel a kezdők szembesülnek, és azonnali megoldások:**
 
-### ❌ "azd: command not found"
+### ❌ "azd: parancs nem található"
+
+```bash
+# Először telepítse az AZD-t
+# Windows (PowerShell):
+winget install microsoft.azd
+
+# macOS:
+brew tap azure/azd && brew install azd
+
+# Linux:
+curl -fsSL https://aka.ms/install-azd.sh | bash
+
+# Telepítés ellenőrzése
+azd version
+```
+  
+### ❌ "Nem található előfizetés" vagy "Előfizetés nincs beállítva"
+
+```bash
+# Elérhető előfizetések listázása
+az account list --output table
+
+# Alapértelmezett előfizetés beállítása
+az account set --subscription "<subscription-id-or-name>"
+
+# Beállítás az AZD környezethez
+azd env set AZURE_SUBSCRIPTION_ID "<subscription-id>"
+
+# Ellenőrzés
+az account show
+```
+  
+### ❌ "InsufficientQuota" vagy "Kvóta túllépve"
+
+```bash
+# Próbáljon ki más Azure régiót
+azd env set AZURE_LOCATION "westus2"
+azd up
+
+# Vagy használjon kisebb SKU-kat fejlesztéshez
+# Szerkessze az infra/main.parameters.json fájlt:
+{
+  "sku": "B1"  // Instead of "P1V2"
+}
+```
+  
+### ❌ "azd up" középen hibára fut
+
+```bash
+# 1. lehetőség: Tisztítás és újrapróbálkozás
+azd down --force --purge
+azd up
+
+# 2. lehetőség: Csak az infrastruktúra javítása
+azd provision
+
+# 3. lehetőség: Részletes naplók ellenőrzése
+azd show
+azd logs
+```
+  
+### ❌ "Hitelesítés sikertelen" vagy "Token lejárt"
+
+```bash
+# Újra hitelesítés
+az logout
+az login
+
+azd auth logout
+azd auth login
+
+# Hitelesítés ellenőrzése
+az account show
+```
+  
+### ❌ "Erőforrás már létezik" vagy névütközések
+
+```bash
+# Az AZD egyedi neveket generál, de ha ütközés van:
+azd down --force --purge
+
+# Akkor próbáld újra friss környezettel
+azd env new dev-v2
+azd up
+```
+  
+### ❌ Sablon telepítése túl hosszú ideig tart
+
+**Normális várakozási idők:**  
+- Egyszerű webalkalmazás: 5-10 perc  
+- Adatbázissal rendelkező alkalmazás: 10-15 perc  
+- AI alkalmazások: 15-25 perc (OpenAI szolgáltatás lassú)  
+
+```bash
+# Ellenőrizze a folyamatot
+azd show
+
+# Ha 30 percnél tovább elakadt, ellenőrizze az Azure Portal-t:
+azd monitor
+# Keresse az sikertelen telepítéseket
+```
+  
+### ❌ "Hozzáférés megtagadva" vagy "Tiltott"
+
+```bash
+# Ellenőrizze az Azure szerepkörét
+az role assignment list --assignee $(az account show --query user.name -o tsv)
+
+# Legalább "Közreműködő" szerepkörre van szüksége
+# Kérje meg Azure adminisztrátorát, hogy adja meg:
+# - Közreműködő (erőforrásokhoz)
+# - Felhasználói hozzáférés-kezdeményező (szerepkör-hozzárendelésekhez)
+```
+  
+### ❌ Nem található a telepített alkalmazás URL-je
+
+```bash
+# Az összes szolgáltatás végpontjainak megjelenítése
+azd show
+
+# Vagy nyissa meg az Azure Portált
+azd monitor
+
+# Ellenőrizzen egy adott szolgáltatást
+azd env get-values
+# Keresse meg a *_URL változókat
+```
+  
+### 📚 Teljes hibaelhárítási erőforrások
+
+- **Gyakori problémák útmutató:** [Részletes megoldások](docs/troubleshooting/common-issues.md)  
+- **AI-specifikus problémák:** [AI hibaelhárítás](docs/troubleshooting/ai-troubleshooting.md)  
+- **Hibakeresési útmutató:** [Lépésről lépésre hibakeresés](docs/troubleshooting/debugging.md)  
+- **Segítségkérés:** [Azure Discord](https://discord.gg/microsoft-azure) #azure-developer-cli
+
+---
+
+## 🔧 Gyors hibaelhárítási útmutató
+
+**Gyakori problémák, amikkel a kezdők szembesülnek, és azonnali megoldások:**
+
+<details>
+<summary><strong>❌ "azd: parancs nem található"</strong></summary>
 
 ```bash
 # Először telepítse az AZD-t
@@ -301,153 +709,10 @@ curl -fsSL https://aka.ms/install-azd.sh | bash
 # Ellenőrizze a telepítést
 azd version
 ```
-
-### ❌ "No subscription found" or "Subscription not set"
-
-```bash
-# Elérhető előfizetések listázása
-az account list --output table
-
-# Alapértelmezett előfizetés beállítása
-az account set --subscription "<subscription-id-or-name>"
-
-# Beállítás az AZD környezethez
-azd env set AZURE_SUBSCRIPTION_ID "<subscription-id>"
-
-# Ellenőrzés
-az account show
-```
-
-### ❌ "InsufficientQuota" or "Quota exceeded"
-
-```bash
-# Próbáljon ki egy másik Azure-régiót
-azd env set AZURE_LOCATION "westus2"
-azd up
-
-# Vagy a fejlesztéshez használjon kisebb SKU-kat
-# Szerkessze az infra/main.parameters.json fájlt:
-{
-  "sku": "B1"  // Instead of "P1V2"
-}
-```
-
-### ❌ "azd up" fails halfway through
-
-```bash
-# Opció 1: Tisztítás és újrapróbálás
-azd down --force --purge
-azd up
-
-# Opció 2: Csak az infrastruktúra javítása
-azd provision
-
-# Opció 3: Részletes naplók ellenőrzése
-azd show
-azd logs
-```
-
-### ❌ "Authentication failed" or "Token expired"
-
-```bash
-# Ismételt hitelesítés
-az logout
-az login
-
-azd auth logout
-azd auth login
-
-# Hitelesítés ellenőrzése
-az account show
-```
-
-### ❌ "Resource already exists" or naming conflicts
-
-```bash
-# AZD egyedi neveket generál, de ha névütközés történik:
-azd down --force --purge
-
-# Ezután próbálja újra friss környezettel
-azd env new dev-v2
-azd up
-```
-
-### ❌ Sablon telepítése túl sokáig tart
-
-**Átlagos várakozási idők:**
-- Egyszerű webalkalmazás: 5-10 perc
-- Adatbázist használó alkalmazás: 10-15 perc
-- AI alkalmazások: 15-25 perc (az OpenAI erőforrások előkészítése lassú)
-
-```bash
-# Ellenőrizze az előrehaladást
-azd show
-
-# Ha több mint 30 percig elakadt, ellenőrizze az Azure portált:
-azd monitor
-# Keresse a sikertelen telepítéseket
-```
-
-### ❌ "Permission denied" or "Forbidden"
-
-```bash
-# Ellenőrizze az Azure szerepkörét
-az role assignment list --assignee $(az account show --query user.name -o tsv)
-
-# Legalább a "Contributor" szerepkör szükséges
-# Kérje meg az Azure adminisztrátorát, hogy adja meg:
-# - Contributor (erőforrásokhoz)
-# - User Access Administrator (szerepkör-hozzárendelésekhez)
-```
-
-### ❌ Can't find deployed application URL
-
-```bash
-# Az összes szolgáltatási végpont megjelenítése
-azd show
-
-# Vagy nyissa meg az Azure portált
-azd monitor
-
-# Ellenőrizzen egy adott szolgáltatást
-azd env get-values
-# Keresse a *_URL változókat
-```
-
-### 📚 Teljes hibaelhárítási források
-
-- **Gyakori problémák útmutatója:** [Részletes megoldások](docs/troubleshooting/common-issues.md)
-- **AI-specifikus problémák:** [AI hibaelhárítás](docs/troubleshooting/ai-troubleshooting.md)
-- **Hibakeresési útmutató:** [Lépésről lépésre hibakeresés](docs/troubleshooting/debugging.md)
-- **Segítség:** [Azure Discord](https://discord.gg/microsoft-azure) #azure-developer-cli
-
----
-
-## 🔧 Gyors hibaelhárítási útmutató
-
-**Kezdők által gyakran tapasztalt problémák és azonnali megoldások:**
-
-<details>
-<summary><strong>❌ "azd: command not found"</strong></summary>
-
-```bash
-# Először telepítse az AZD-t
-# Windows (PowerShell):
-winget install microsoft.azd
-
-# macOS:
-brew tap azure/azd && brew install azd
-
-# Linux:
-curl -fsSL https://aka.ms/install-azd.sh | bash
-
-# Ellenőrizze a telepítést
-azd version
-```
 </details>
 
 <details>
-<summary><strong>❌ "No subscription found" or "Subscription not set"</strong></summary>
+<summary><strong>❌ "Nem található előfizetés" vagy "Előfizetés nincs beállítva"</strong></summary>
 
 ```bash
 # Elérhető előfizetések listázása
@@ -465,14 +730,14 @@ az account show
 </details>
 
 <details>
-<summary><strong>❌ "InsufficientQuota" or "Quota exceeded"</strong></summary>
+<summary><strong>❌ "InsufficientQuota" vagy "Kvóta túllépve"</strong></summary>
 
 ```bash
-# Próbáljon ki másik Azure-régiót
+# Próbáljon ki más Azure régiót
 azd env set AZURE_LOCATION "westus2"
 azd up
 
-# Vagy fejlesztéshez használjon kisebb SKU-kat
+# Vagy használjon kisebb SKU-kat fejlesztésben
 # Szerkessze az infra/main.parameters.json fájlt:
 {
   "sku": "B1"  // Instead of "P1V2"
@@ -481,27 +746,27 @@ azd up
 </details>
 
 <details>
-<summary><strong>❌ "azd up" fails halfway through</strong></summary>
+<summary><strong>❌ "azd up" középen hibára fut</strong></summary>
 
 ```bash
-# Opció 1: Tisztítás és újrapróbálkozás
+# 1. lehetőség: Tisztítás és újrapróbálkozás
 azd down --force --purge
 azd up
 
-# Opció 2: Csak az infrastruktúra javítása
+# 2. lehetőség: Csak az infrastruktúra javítása
 azd provision
 
-# Opció 3: Részletes naplók ellenőrzése
+# 3. lehetőség: Részletes naplók ellenőrzése
 azd show
 azd logs
 ```
 </details>
 
 <details>
-<summary><strong>❌ "Authentication failed" or "Token expired"</strong></summary>
+<summary><strong>❌ "Hitelesítés sikertelen" vagy "Token lejárt"</strong></summary>
 
 ```bash
-# Ismételt hitelesítés
+# Újrahitelesítés
 az logout
 az login
 
@@ -514,172 +779,172 @@ az account show
 </details>
 
 <details>
-<summary><strong>❌ "Resource already exists" or naming conflicts</strong></summary>
+<summary><strong>❌ "Erőforrás már létezik" vagy névütközések</strong></summary>
 
 ```bash
-# AZD egyedi neveket generál, de ha névütközés lép fel:
+# Az AZD egyedi neveket generál, de ha ütközés van:
 azd down --force --purge
 
-# Ezután próbálja újra friss környezettel
+# Akkor próbálja újra új környezettel
 azd env new dev-v2
 azd up
 ```
 </details>
 
 <details>
-<summary><strong>❌ Sablon telepítése túl sokáig tart</strong></summary>
+<summary><strong>❌ Sablon telepítése túl hosszú ideig tart</strong></summary>
 
-**Átlagos várakozási idők:**
-- Egyszerű webalkalmazás: 5-10 perc
-- Adatbázist használó alkalmazás: 10-15 perc
-- AI alkalmazások: 15-25 perc (az OpenAI erőforrások előkészítése lassú)
+**Normális várakozási idők:**  
+- Egyszerű webalkalmazás: 5-10 perc  
+- Adatbázissal rendelkező alkalmazás: 10-15 perc  
+- AI alkalmazások: 15-25 perc (OpenAI szolgáltatás lassú)  
 
 ```bash
-# Ellenőrizze az előrehaladást
+# Ellenőrizze a haladást
 azd show
 
-# Ha 30 percnél tovább elakadt, ellenőrizze az Azure-portált:
+# Ha 30 percnél tovább fennakadt, ellenőrizze az Azure Portált:
 azd monitor
 # Keresse a sikertelen telepítéseket
 ```
 </details>
 
 <details>
-<summary><strong>❌ "Permission denied" or "Forbidden"</strong></summary>
+<summary><strong>❌ "Hozzáférés megtagadva" vagy "Tiltott"</strong></summary>
 
 ```bash
-# Ellenőrizze az Azure szerepkörét
+# Ellenőrizze Azure szerepkörét
 az role assignment list --assignee $(az account show --query user.name -o tsv)
 
 # Legalább a "Contributor" szerepkör szükséges
-# Kérje meg az Azure rendszergazdáját, hogy adja meg:
+# Kérje Azure adminisztrátorát, hogy adja meg:
 # - Contributor (erőforrásokhoz)
 # - User Access Administrator (szerepkör-hozzárendelésekhez)
 ```
 </details>
 
 <details>
-<summary><strong>❌ Can't find deployed application URL</strong></summary>
+<summary><strong>❌ Nem található a telepített alkalmazás URL-je</strong></summary>
 
 ```bash
 # Az összes szolgáltatási végpont megjelenítése
 azd show
 
-# Vagy nyissa meg az Azure portált
+# Vagy nyissa meg az Azure Portált
 azd monitor
 
-# Ellenőrizzen egy adott szolgáltatást
+# Ellenőrizze a konkrét szolgáltatást
 azd env get-values
 # Keresse a *_URL változókat
 ```
 </details>
 
-### 📚 Teljes hibaelhárítási források
+### 📚 Teljes hibaelhárítási erőforrások
 
-- **Gyakori problémák útmutatója:** [Részletes megoldások](docs/troubleshooting/common-issues.md)
-- **AI-specifikus problémák:** [AI hibaelhárítás](docs/troubleshooting/ai-troubleshooting.md)
-- **Hibakeresési útmutató:** [Lépésről lépésre hibakeresés](docs/troubleshooting/debugging.md)
-- **Segítség:** [Azure Discord](https://discord.gg/microsoft-azure) #azure-developer-cli
+- **Gyakori problémák útmutató:** [Részletes megoldások](docs/troubleshooting/common-issues.md)  
+- **AI-specifikus problémák:** [AI hibaelhárítás](docs/troubleshooting/ai-troubleshooting.md)  
+- **Hibakeresési útmutató:** [Lépésről lépésre hibakeresés](docs/troubleshooting/debugging.md)  
+- **Segítségkérés:** [Azure Discord](https://discord.gg/microsoft-azure) #azure-developer-cli
 
 ---
 
 ## 🎓 Tanfolyam befejezése és tanúsítás
 
-### Haladás nyomon követése
-Kövesd tanulási előrehaladásod fejezetenként:
+### Haladás nyomonkövetése  
+Kövesd tanulási előrehaladásodat fejezetenként:
 
-- [ ] **1. fejezet**: Alapok és gyors kezdés ✅
-- [ ] **2. fejezet**: AI-első fejlesztés ✅  
-- [ ] **3. fejezet**: Konfiguráció és hitelesítés ✅
-- [ ] **4. fejezet**: Infrastruktúra mint kód és telepítés ✅
-- [ ] **5. fejezet**: Többügynökös AI-megoldások ✅
-- [ ] **6. fejezet**: Előtelepítési ellenőrzés és tervezés ✅
-- [ ] **7. fejezet**: Hibaelhárítás és hibakeresés ✅
-- [ ] **8. fejezet**: Éles üzem és vállalati minták ✅
+- [ ] **1. fejezet**: Alapok és gyors kezdés ✅  
+- [ ] **2. fejezet**: AI-vezérelt fejlesztés ✅  
+- [ ] **3. fejezet**: Konfiguráció és hitelesítés ✅  
+- [ ] **4. fejezet**: Infrastruktúra kódként és telepítés ✅  
+- [ ] **5. fejezet**: Többügynökös AI megoldások ✅  
+- [ ] **6. fejezet**: Előzetes validáció és tervezés ✅  
+- [ ] **7. fejezet**: Hibaelhárítás és hibakeresés ✅  
+- [ ] **8. fejezet**: Termelési és vállalati minták ✅
 
-### Tanulás ellenőrzése
-A fejezet elvégzése után igazold tudásod a következőkkel:
-1. **Gyakorlati feladat**: Fejezd be a fejezet gyakorlati telepítését
-2. **Tudásellenőrzés**: Nézd át a fejezet GYIK szakaszát
-3. **Közösségi megbeszélés**: Oszd meg tapasztalataidat az Azure Discordon
-4. **Következő fejezet**: Lépj a következő bonyolultsági szintre
+### Tanulás ellenőrzése  
+Minden fejezet elvégzése után ellenőrizd tudásod:  
+1. **Gyakorlati feladat:** Végezd el a fejezet telepítési gyakorlatát  
+2. **Tudásellenőrzés:** Tekintsd át a fejezet GYIK szekcióját  
+3. **Közösségi beszélgetés:** Oszd meg tapasztalataid az Azure Discord-ban  
+4. **Következő fejezet:** Lépj tovább a következő nehézségi szintre
 
-### A tanfolyam elvégzésének előnyei
-Minden fejezet teljesítése után a következőkkel fogsz rendelkezni:
-- **Éles környezeti tapasztalat**: Valós AI-alkalmazások telepítése Azure-ba
-- **Szakmai készségek**: Vállalati szintű telepítési képességek  
-- **Közösségi elismerés**: Az Azure fejlesztői közösség aktív tagja
-- **Karrierfejlődés**: Keresett AZD és AI telepítési szakértelem
-
----
-
-## 🤝 Közösség & támogatás
-
-### Segítség és támogatás
-- **Műszaki problémák**: [Report bugs and request features](https://github.com/microsoft/azd-for-beginners/issues)
-- **Tanulási kérdések**: [Microsoft Azure Discord Community](https://discord.gg/microsoft-azure) and [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
-- **AI-specifikus segítség**: Join the [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
-- **Dokumentáció**: [Official Azure Developer CLI documentation](https://learn.microsoft.com/en-us/azure/developer/azure-developer-cli/)
-
-### Közösségi betekintés a Microsoft Foundry Discord-ból
-
-**A #Azure csatorna legfrissebb közvélemény-kutatási eredményei:**
-- **45%** fejlesztők szeretnék AZD-t AI munkaterhelésekhez használni
-- **Legfőbb kihívások**: Több szolgáltatásos telepítések, hitelesítő adatok kezelése, éles üzemre való felkészültség  
-- **Leggyakrabban kért**: AI-specifikus sablonok, hibaelhárítási útmutatók, bevált gyakorlatok
-
-**Csatlakozz közösségünkhöz, hogy:**
-- Megoszd AZD + AI tapasztalataidat és segítséget kapj
-- Hozzáférj az új AI sablonok korai előnézeteihez
-- Hozzájárulj az AI telepítési bevált gyakorlatokhoz
-- Hatással legyél a jövőbeli AI + AZD fejlesztésekre
-
-### Hozzájárulás a tanfolyamhoz
-Szívesen fogadjuk a hozzájárulásokat! Kérjük, olvasd el a [Contributing Guide](CONTRIBUTING.md) útmutatót a részletekért:
-- **Tartalom fejlesztése**: Javítsd a meglévő fejezeteket és példákat
-- **Új példák**: Add hozzá a valós életből vett forgatókönyveket és sablonokat  
-- **Fordítás**: Segíts a többnyelvű támogatás fenntartásában
-- **Hiba bejelentések**: Növeld a pontosságot és az érthetőséget
-- **Közösségi normák**: Kövesd inkluzív közösségi irányelveinket
+### A tanfolyam elvégzésének előnyei  
+Minden fejezet befejezése után rendelkezel majd:  
+- **Termelési tapasztalat:** Valódi AI alkalmazások telepítése Azure-ba  
+- **Szakmai képességek:** Vállalati szintű telepítési képességek  
+- **Közösségi elismerés:** Az Azure fejlesztői közösség aktív tagja  
+- **Karrier előrelépés:** Keresett AZD és AI telepítési szakértelem
 
 ---
 
-## 📄 Tanfolyami információk
+## 🤝 Közösség és támogatás
 
-### Licence
-This project is licensed under the MIT License - see the [LICENSE](../../LICENSE) file for details.
+### Segítségkérés és támogatás  
+- **Technikai problémák:** [Hibajelentések és funkciókérések](https://github.com/microsoft/azd-for-beginners/issues)  
+- **Tanulási kérdések:** [Microsoft Azure Discord közösség](https://discord.gg/microsoft-azure) és [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)  
+- **AI-specifikus segítség:** Csatlakozz a [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG) szerverhez  
+- **Dokumentáció:** [Hivatalos Azure Developer CLI dokumentáció](https://learn.microsoft.com/en-us/azure/developer/azure-developer-cli/)
+
+### Közösségi betekintések a Microsoft Foundry Discordból
+
+**Legfrissebb szavazási eredmények a #Azure csatornán:**  
+- A fejlesztők **45%-a** szeretné az AZD-t AI feladatokra használni  
+- **Legnagyobb kihívások:** Többszolgáltatásos telepítések, hitelesítés kezelése, termelési készültség  
+- **Leggyakrabban kért:** AI-specifikus sablonok, hibaelhárítási útmutatók, legjobb gyakorlatok
+
+**Csatlakozz közösségünkhöz, hogy:**  
+- Megoszd AZD + AI tapasztalataidat és segítséget kapj  
+- Hozzáférj új AI sablonok korai verzióihoz  
+- Hozzájárulj AI telepítési legjobb gyakorlatokhoz  
+- Befolyásold a jövő AI + AZD fejlesztéseit
+
+### Hozzájárulás a tanfolyamhoz  
+Örömmel fogadjuk a hozzájárulásokat! Kérjük, olvasd el a [Hozzájárulási útmutatót](CONTRIBUTING.md) a részletekért:  
+- **Tartalomfejlesztés:** Fejlessz meglévő fejezeteket és példákat  
+- **Új példák:** Adj hozzá valós helyzeteket és sablonokat  
+- **Fordítás:** Segíts fenntartani a többnyelvű támogatást  
+- **Hibajelentések:** Növeld a pontosságot és érthetőséget  
+- **Közösségi irányelvek:** Kövesd befogadó közösségi szabályzatunkat
+
+---
+
+## 📄 Tanfolyaminformációk
+
+### Licenc  
+Ez a projekt az MIT licenc alatt áll - lásd a [LICENSE](../../LICENSE) fájlt a részletekért.
 
 ### Kapcsolódó Microsoft tanulási források
 
-Csapatunk más átfogó tanfolyamokat is készít:
+Csapatunk további átfogó tanfolyamokat kínál:
 
 <!-- CO-OP TRANSLATOR OTHER COURSES START -->
-### LangChain
-[![LangChain4j kezdőknek](https://img.shields.io/badge/LangChain4j%20for%20Beginners-22C55E?style=for-the-badge&&labelColor=E5E7EB&color=0553D6)](https://aka.ms/langchain4j-for-beginners)
+### LangChain  
+[![LangChain4j kezdőknek](https://img.shields.io/badge/LangChain4j%20for%20Beginners-22C55E?style=for-the-badge&&labelColor=E5E7EB&color=0553D6)](https://aka.ms/langchain4j-for-beginners)  
 [![LangChain.js kezdőknek](https://img.shields.io/badge/LangChain.js%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=0553D6)](https://aka.ms/langchainjs-for-beginners?WT.mc_id=m365-94501-dwahlin)
 
 ---
 
-### Azure / Edge / MCP / Agents
-[![AZD kezdőknek](https://img.shields.io/badge/AZD%20for%20Beginners-0078D4?style=for-the-badge&labelColor=E5E7EB&color=0078D4)](https://github.com/microsoft/AZD-for-beginners?WT.mc_id=academic-105485-koreyst)
-[![Edge AI kezdőknek](https://img.shields.io/badge/Edge%20AI%20for%20Beginners-00B8E4?style=for-the-badge&labelColor=E5E7EB&color=00B8E4)](https://github.com/microsoft/edgeai-for-beginners?WT.mc_id=academic-105485-koreyst)
-[![MCP kezdőknek](https://img.shields.io/badge/MCP%20for%20Beginners-009688?style=for-the-badge&labelColor=E5E7EB&color=009688)](https://github.com/microsoft/mcp-for-beginners?WT.mc_id=academic-105485-koreyst)
-[![AI ügynökök kezdőknek](https://img.shields.io/badge/AI%20Agents%20for%20Beginners-00C49A?style=for-the-badge&labelColor=E5E7EB&color=00C49A)](https://github.com/microsoft/ai-agents-for-beginners?WT.mc_id=academic-105485-koreyst)
+### Azure / Edge / MCP / Ügynökök  
+[![AZD kezdőknek](https://img.shields.io/badge/AZD%20for%20Beginners-0078D4?style=for-the-badge&labelColor=E5E7EB&color=0078D4)](https://github.com/microsoft/AZD-for-beginners?WT.mc_id=academic-105485-koreyst)  
+[![Edge AI kezdőknek](https://img.shields.io/badge/Edge%20AI%20for%20Beginners-00B8E4?style=for-the-badge&labelColor=E5E7EB&color=00B8E4)](https://github.com/microsoft/edgeai-for-beginners?WT.mc_id=academic-105485-koreyst)  
+[![MCP kezdőknek](https://img.shields.io/badge/MCP%20for%20Beginners-009688?style=for-the-badge&labelColor=E5E7EB&color=009688)](https://github.com/microsoft/mcp-for-beginners?WT.mc_id=academic-105485-koreyst)  
+[![AI Ügynökök kezdőknek](https://img.shields.io/badge/AI%20Agents%20for%20Beginners-00C49A?style=for-the-badge&labelColor=E5E7EB&color=00C49A)](https://github.com/microsoft/ai-agents-for-beginners?WT.mc_id=academic-105485-koreyst)
 
 ---
- 
-### Generatív AI sorozat
-[![Generatív AI kezdőknek](https://img.shields.io/badge/Generative%20AI%20for%20Beginners-8B5CF6?style=for-the-badge&labelColor=E5E7EB&color=8B5CF6)](https://github.com/microsoft/generative-ai-for-beginners?WT.mc_id=academic-105485-koreyst)
-[![Generatív AI (.NET)](https://img.shields.io/badge/Generative%20AI%20(.NET)-9333EA?style=for-the-badge&labelColor=E5E7EB&color=9333EA)](https://github.com/microsoft/Generative-AI-for-beginners-dotnet?WT.mc_id=academic-105485-koreyst)
-[![Generatív AI (Java)](https://img.shields.io/badge/Generative%20AI%20(Java)-C084FC?style=for-the-badge&labelColor=E5E7EB&color=C084FC)](https://github.com/microsoft/generative-ai-for-beginners-java?WT.mc_id=academic-105485-koreyst)
+
+### Generatív AI sorozat  
+[![Generatív AI kezdőknek](https://img.shields.io/badge/Generative%20AI%20for%20Beginners-8B5CF6?style=for-the-badge&labelColor=E5E7EB&color=8B5CF6)](https://github.com/microsoft/generative-ai-for-beginners?WT.mc_id=academic-105485-koreyst)  
+[![Generatív AI (.NET)](https://img.shields.io/badge/Generative%20AI%20(.NET)-9333EA?style=for-the-badge&labelColor=E5E7EB&color=9333EA)](https://github.com/microsoft/Generative-AI-for-beginners-dotnet?WT.mc_id=academic-105485-koreyst)  
+[![Generatív AI (Java)](https://img.shields.io/badge/Generative%20AI%20(Java)-C084FC?style=for-the-badge&labelColor=E5E7EB&color=C084FC)](https://github.com/microsoft/generative-ai-for-beginners-java?WT.mc_id=academic-105485-koreyst)  
 [![Generatív AI (JavaScript)](https://img.shields.io/badge/Generative%20AI%20(JavaScript)-E879F9?style=for-the-badge&labelColor=E5E7EB&color=E879F9)](https://github.com/microsoft/generative-ai-with-javascript?WT.mc_id=academic-105485-koreyst)
 
 ---
- 
-### Alapvető tanfolyamok
+
+### Core Learning  
 [![Gépi tanulás kezdőknek](https://img.shields.io/badge/ML%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=22C55E)](https://aka.ms/ml-beginners?WT.mc_id=academic-105485-koreyst)
 [![Adattudomány kezdőknek](https://img.shields.io/badge/Data%20Science%20for%20Beginners-84CC16?style=for-the-badge&labelColor=E5E7EB&color=84CC16)](https://aka.ms/datascience-beginners?WT.mc_id=academic-105485-koreyst)
-[![AI kezdőknek](https://img.shields.io/badge/AI%20for%20Beginners-A3E635?style=for-the-badge&labelColor=E5E7EB&color=A3E635)](https://aka.ms/ai-beginners?WT.mc_id=academic-105485-koreyst)
+[![Mesterséges intelligencia kezdőknek](https://img.shields.io/badge/AI%20for%20Beginners-A3E635?style=for-the-badge&labelColor=E5E7EB&color=A3E635)](https://aka.ms/ai-beginners?WT.mc_id=academic-105485-koreyst)
 [![Kiberbiztonság kezdőknek](https://img.shields.io/badge/Cybersecurity%20for%20Beginners-F97316?style=for-the-badge&labelColor=E5E7EB&color=F97316)](https://github.com/microsoft/Security-101?WT.mc_id=academic-96948-sayoung)
 [![Webfejlesztés kezdőknek](https://img.shields.io/badge/Web%20Dev%20for%20Beginners-EC4899?style=for-the-badge&labelColor=E5E7EB&color=EC4899)](https://aka.ms/webdev-beginners?WT.mc_id=academic-105485-koreyst)
 [![IoT kezdőknek](https://img.shields.io/badge/IoT%20for%20Beginners-14B8A6?style=for-the-badge&labelColor=E5E7EB&color=14B8A6)](https://aka.ms/iot-beginners?WT.mc_id=academic-105485-koreyst)
@@ -688,8 +953,8 @@ Csapatunk más átfogó tanfolyamokat is készít:
 ---
  
 ### Copilot sorozat
-[![Copilot AI páros programozáshoz](https://img.shields.io/badge/Copilot%20for%20AI%20Paired%20Programming-FACC15?style=for-the-badge&labelColor=E5E7EB&color=FACC15)](https://aka.ms/GitHubCopilotAI?WT.mc_id=academic-105485-koreyst)
-[![Copilot C#/.NET-hez](https://img.shields.io/badge/Copilot%20for%20C%23/.NET-FBBF24?style=for-the-badge&labelColor=E5E7EB&color=FBBF24)](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers?WT.mc_id=academic-105485-koreyst)
+[![Copilot mesterséges intelligencia páros programozáshoz](https://img.shields.io/badge/Copilot%20for%20AI%20Paired%20Programming-FACC15?style=for-the-badge&labelColor=E5E7EB&color=FACC15)](https://aka.ms/GitHubCopilotAI?WT.mc_id=academic-105485-koreyst)
+[![Copilot C#/.NET fejlesztéshez](https://img.shields.io/badge/Copilot%20for%20C%23/.NET-FBBF24?style=for-the-badge&labelColor=E5E7EB&color=FBBF24)](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers?WT.mc_id=academic-105485-koreyst)
 [![Copilot kaland](https://img.shields.io/badge/Copilot%20Adventure-FDE68A?style=for-the-badge&labelColor=E5E7EB&color=FDE68A)](https://github.com/microsoft/CopilotAdventures?WT.mc_id=academic-105485-koreyst)
 <!-- CO-OP TRANSLATOR OTHER COURSES END -->
 
@@ -697,17 +962,17 @@ Csapatunk más átfogó tanfolyamokat is készít:
 
 ## 🗺️ Tanfolyam navigáció
 
-**🚀 Készen állsz elkezdeni a tanulást?**
+**🚀 Készen állsz a tanulásra?**
 
-**Kezdők**: Kezdjétek ezzel [1. fejezet: Alapok és Gyors kezdés](../..)  
-**AI fejlesztők**: Ugrás a [2. fejezet: AI-első fejlesztés](../..)  
-**Tapasztalt fejlesztők**: Kezdjétek a [3. fejezet: Konfiguráció és hitelesítés](../..)
+**Kezdőknek**: Kezdj a [1. fejezettel: Alapok & Gyors kezdés](../..)  
+**AI fejlesztőknek**: Ugorj a [2. fejezethez: AI-központú fejlesztés](../..)  
+**Tapasztalt fejlesztőknek**: Kezdj a [3. fejezettel: Konfiguráció & hitelesítés](../..)
 
-**Következő lépések**: [1. fejezet kezdése - AZD alapok](docs/getting-started/azd-basics.md) →
+**Következő lépések**: [Kezdd az 1. fejezettel - AZD alapok](docs/getting-started/azd-basics.md) →
 
 ---
 
 <!-- CO-OP TRANSLATOR DISCLAIMER START -->
-Felelősségkizárás:
-Ezt a dokumentumot az [Co-op Translator](https://github.com/Azure/co-op-translator) mesterséges intelligencia alapú fordító szolgáltatásával fordítottuk. Bár törekszünk a pontosságra, kérjük, vegye figyelembe, hogy az automatikus fordítások hibákat vagy pontatlanságokat tartalmazhatnak. Az eredeti dokumentum az anyanyelvén tekintendő hiteles forrásnak. Kritikus fontosságú információk esetén professzionális, emberi fordítást javaslunk. Nem vállalunk felelősséget a fordítás használatából eredő félreértésekért vagy téves értelmezésekért.
+**Jogi nyilatkozat**:
+Ez a dokumentum az AI fordító szolgáltatás, a [Co-op Translator](https://github.com/Azure/co-op-translator) segítségével készült. Bár az pontosságra törekszünk, kérjük, vegye figyelembe, hogy az automatikus fordítások hibákat vagy pontatlanságokat tartalmazhatnak. Az eredeti dokumentum az anyanyelvén tekintendő hivatalos forrásnak. Kritikus információk esetén profi, emberi fordítást javaslunk. Nem vállalunk felelősséget az ebből a fordításból eredő félreértésekért vagy félreértelmezésekért.
 <!-- CO-OP TRANSLATOR DISCLAIMER END -->
